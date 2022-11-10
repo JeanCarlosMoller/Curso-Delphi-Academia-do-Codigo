@@ -4,7 +4,7 @@
 
 Professor: Thulio Bittencourt
 
-[Clique aqui para acessar site dos curso](https://academiadocodigo.com.br/campanha/clube-de-programadores/) 💻
+<a href="https://academiadocodigo.com.br/campanha/clube-de-programadores/" target="_blank">Clique aqui para acessar site dos curso 💻</a>
 
 
 ## 🛠️ Tecnologias
