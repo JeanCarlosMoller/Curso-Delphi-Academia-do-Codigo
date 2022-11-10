@@ -14,7 +14,7 @@ Delphi POO
          Classe, Together, Constructor, Destructor, FreeAndNil, Records, Classes compostas, Classes aninhadas, Abstração, Encapsulamento, Private, Property, Classes amigas, Strict private;
  
 
- Módulo Intermédiario:
+ * Módulo Intermédiario:
         - 
  
 
