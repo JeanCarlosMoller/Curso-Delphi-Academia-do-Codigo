@@ -10,16 +10,14 @@ Professor: Thulio Bittencourt
 ## 🛠️ Tecnologias
 Delphi POO
  
- -
+ * Módulo Básico:
+         Classe, Together, Constructor, Destructor, FreeAndNil, Records, Classes compostas, Classes aninhadas, Abstração, Encapsulamento, Private, Property, Classes amigas, Strict private;
+ 
 
-    * Módulo Intermédiario:
-        - Classe, Together, Constructor, Destructor, FreeAndNil, Records, Classes compostas, Classes aninhadas, Abstração, Encapsulamento, Private, Property, Classes amigas, Strict private;
- -
-
-    * Módulo Intermédiario:
+ Módulo Intermédiario:
         - 
- -
+ 
 
-    * Módulo Intermédiario:
+* Módulo Avançado:
         - 
- -
+ 
