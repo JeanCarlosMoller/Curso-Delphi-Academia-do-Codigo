@@ -1,0 +1,22 @@
+unit Classe.carro;
+
+interface
+
+type
+  TCarro = class
+    type
+      TRoda = class
+    public
+      Tipo : String;
+      Tamanho : String;
+  end;
+    private
+      Marca : String;
+      Modelo : String;
+      Roda : TRoda;
+    public
+  end;
+
+implementation
+
+end.
