@@ -1,0 +1,15 @@
+program DelphiToHero;
+
+uses
+  Vcl.Forms,
+  DelphiToHero.View.Main in 'src\View\DelphiToHero.View.Main.pas' {Form1},
+  DelphiToHero.View.Styles.Color in 'src\View\Styles\DelphiToHero.View.Styles.Color.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

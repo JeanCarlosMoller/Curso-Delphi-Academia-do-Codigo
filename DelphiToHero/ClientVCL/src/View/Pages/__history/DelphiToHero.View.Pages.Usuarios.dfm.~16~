@@ -1,0 +1,45 @@
+inherited PageUsuarios: TPageUsuarios
+  Caption = 'PageUsuarios'
+  ClientWidth = 713
+  ExplicitWidth = 713
+  PixelsPerInch = 96
+  TextHeight = 13
+  inherited Panel1: TPanel
+    Width = 713
+    ExplicitWidth = 713
+    inherited Panel2: TPanel
+      Width = 713
+      ExplicitWidth = 713
+      inherited Panel4: TPanel
+        Width = 513
+        ExplicitWidth = 513
+        inherited Label1: TLabel
+          Left = 50
+          Top = 22
+          Height = 13
+          Align = alNone
+          ExplicitLeft = 50
+          ExplicitTop = 22
+          ExplicitHeight = 13
+        end
+        inherited SpeedButton1: TSpeedButton
+          Left = 373
+          ExplicitLeft = 317
+        end
+        inherited SpeedButton2: TSpeedButton
+          Left = 93
+          ExplicitLeft = 93
+        end
+        inherited SpeedButton3: TSpeedButton
+          Left = 233
+          ExplicitLeft = 201
+        end
+      end
+    end
+    inherited Panel3: TPanel
+      Width = 713
+      ExplicitTop = 57
+      ExplicitWidth = 713
+    end
+  end
+end

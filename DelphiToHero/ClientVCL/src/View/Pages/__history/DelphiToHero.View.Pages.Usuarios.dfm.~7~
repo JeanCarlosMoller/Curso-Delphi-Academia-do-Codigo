@@ -1,0 +1,17 @@
+inherited PageUsuarios: TPageUsuarios
+  Caption = 'PageUsuarios'
+  PixelsPerInch = 96
+  TextHeight = 13
+  inherited Panel1: TPanel
+    inherited Panel2: TPanel
+      inherited Panel4: TPanel
+        inherited Label1: TLabel
+          Width = 57
+          Font.Style = [fsBold]
+          ParentFont = False
+          ExplicitWidth = 57
+        end
+      end
+    end
+  end
+end

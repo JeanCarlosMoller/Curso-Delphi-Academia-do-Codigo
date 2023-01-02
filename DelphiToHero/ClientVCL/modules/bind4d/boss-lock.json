@@ -1,0 +1,70 @@
+{
+	"hash": "d41d8cd98f00b204e9800998ecf8427e",
+	"updated": "2021-03-27T21:28:55.6450536-03:00",
+	"installedModules": {
+		"github.com/viniciussanchez/dataset-serialize": {
+			"name": "dataset-serialize",
+			"version": "v2.3.0",
+			"hash": "916555f057218c63d26c06a3c0bd12f4",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"github.com/viniciussanchez/restrequest4delphi": {
+			"name": "restrequest4delphi",
+			"version": "v3.0.6",
+			"hash": "c113a36fa794862991b7d85d8a23053a",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"https://github.com/bittencourtthulio/aws4d": {
+			"name": "aws4d",
+			"version": "1.0.7",
+			"hash": "12e19c045cd2dc38cc483e2c3cd7c47b",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"https://github.com/bittencourtthulio/localcache4d": {
+			"name": "localcache4d",
+			"version": "1.0.4",
+			"hash": "78a7747cc7f2f79822d67610672800a5",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"https://github.com/bittencourtthulio/translator4d": {
+			"name": "translator4d",
+			"version": "1.0.4",
+			"hash": "a952ed310e4f8770b0eef08a7b9c5967",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"https://github.com/pmadalozzo/zipcode4bind": {
+			"name": "ZipCode4Bind",
+			"version": "1.0.1",
+			"hash": "53eda91992cfdce747d88d3c886d6820",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"https://github.com/viniciussanchez/dataset-serialize": {
+			"name": "dataset-serialize",
+			"version": "v2.3.0",
+			"hash": "916555f057218c63d26c06a3c0bd12f4",
+			"artifacts": {},
+			"failed": false,
+			"changed": true
+		},
+		"https://github.com/viniciussanchez/restrequest4delphi": {
+			"name": "restrequest4delphi",
+			"version": "v3.0.6",
+			"hash": "c113a36fa794862991b7d85d8a23053a",
+			"artifacts": {},
+			"failed": false,
+			"changed": true
+		}
+	}
+}

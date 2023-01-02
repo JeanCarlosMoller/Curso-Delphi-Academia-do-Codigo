@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/01/02 17:12:54.208,=C:\Users\jeanc\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/02 17:16:20.181,C:\GIT\Monolito_Financeiro\src\View\MonolitoFinanceiro.View.Principal.dfm=C:\Users\jeanc\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/01/02 17:16:20.181,C:\GIT\Monolito_Financeiro\src\View\MonolitoFinanceiro.View.Principal.pas=C:\Users\jeanc\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/02 17:16:46.857,C:\GIT\Monolito_Financeiro\MonolitoFinanceiro.dproj=C:\Users\jeanc\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

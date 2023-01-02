@@ -1,0 +1,46 @@
+package ZipCode4Bind;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  bindengine,
+  dbrtl,
+  bindcomp,
+  RESTComponents,
+  FireDAC,
+  FireDACCommonDriver,
+  FireDACCommon;
+
+contains
+  ZC4B in 'src\ZC4B.pas',
+  ZC4B.Interfaces in 'src\ZC4B.Interfaces.pas',
+  ZC4B.Credential in 'src\ZC4B.Credential.pas',
+  ZC4B.Get in 'src\ZC4B.Get.pas';
+
+end.

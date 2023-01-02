@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/12/01 14:53:56.000.275,=C:\Users\jeanc\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/01 14:57:59.000.463,C:\GIT\DelphiToHero\ClientVCL\src\View\DelphiToHero.View.Main.dfm=C:\Users\jeanc\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/12/01 14:57:59.000.463,C:\GIT\DelphiToHero\ClientVCL\src\View\DelphiToHero.View.Main.pas=C:\Users\jeanc\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/01 14:58:14.000.425,C:\GIT\DelphiToHero\ClientVCL\DelphiToHero.dproj=C:\Users\jeanc\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/12/01 15:35:36.000.764,=C:\GIT\DelphiToHero\ClientVCL\Unit1.pas</Transaction>
+    <Transaction>2022/12/01 15:37:07.000.391,C:\GIT\DelphiToHero\ClientVCL\src\View\Styles\DelphiToHero.View.Styles.Color.pas=C:\GIT\DelphiToHero\ClientVCL\Unit1.pas</Transaction>
+    <Transaction>2022/12/02 15:15:59.000.646,=C:\GIT\Curso-Delphi-Academia-do-Codigo\DelphiToHero\ClientVCL\Unit1.pas</Transaction>
+    <Transaction>2022/12/02 15:16:59.000.156,C:\GIT\Curso-Delphi-Academia-do-Codigo\DelphiToHero\ClientVCL\Unit1.dfm=C:\GIT\Curso-Delphi-Academia-do-Codigo\DelphiToHero\ClientVCL\src\View\Pages\DelphiToHero.View.Pages.Principal.dfm</Transaction>
+    <Transaction>2022/12/02 15:16:59.000.156,C:\GIT\Curso-Delphi-Academia-do-Codigo\DelphiToHero\ClientVCL\Unit1.pas=C:\GIT\Curso-Delphi-Academia-do-Codigo\DelphiToHero\ClientVCL\src\View\Pages\DelphiToHero.View.Pages.Principal.pas</Transaction>
+    <Transaction>2022/12/03 16:22:56.000.899,=C:\GIT\Curso-Delphi-Academia-do-Codigo\DelphiToHero\ClientVCL\Unit1.pas</Transaction>
+    <Transaction>2022/12/03 16:23:42.000.016,C:\GIT\Curso-Delphi-Academia-do-Codigo\DelphiToHero\ClientVCL\src\View\Pages\DelphiToHero.View.Pages.Usuarios.dfm=C:\GIT\Curso-Delphi-Academia-do-Codigo\DelphiToHero\ClientVCL\Unit1.dfm</Transaction>
+    <Transaction>2022/12/03 16:23:42.000.016,C:\GIT\Curso-Delphi-Academia-do-Codigo\DelphiToHero\ClientVCL\src\View\Pages\DelphiToHero.View.Pages.Usuarios.pas=C:\GIT\Curso-Delphi-Academia-do-Codigo\DelphiToHero\ClientVCL\Unit1.pas</Transaction>
+    <Transaction>2022/12/03 16:31:27.000.454,=C:\GIT\Curso-Delphi-Academia-do-Codigo\DelphiToHero\ClientVCL\Unit1.pas</Transaction>
+    <Transaction>2022/12/03 16:32:52.000.946,C:\GIT\Curso-Delphi-Academia-do-Codigo\DelphiToHero\ClientVCL\src\View\Routers\DelphiToHero.View.Routers.pas=C:\GIT\Curso-Delphi-Academia-do-Codigo\DelphiToHero\ClientVCL\Unit1.pas</Transaction>
+    <Transaction>2022/12/12 14:01:33.000.398,C:\GIT\Curso-Delphi-Academia-do-Codigo\DelphiToHero\ClientVCL\src\View\Pages\DelphiToHero.View.Pages.Usuarios.pas=</Transaction>
+    <Transaction>2022/12/12 14:08:57.000.162,=C:\GIT\Curso-Delphi-Academia-do-Codigo\DelphiToHero\ClientVCL\Unit1.pas</Transaction>
+    <Transaction>2022/12/12 14:09:40.000.669,C:\GIT\Curso-Delphi-Academia-do-Codigo\DelphiToHero\ClientVCL\src\View\Pages\DelphiToHero.View.Pages.Form.Template.pas=C:\GIT\Curso-Delphi-Academia-do-Codigo\DelphiToHero\ClientVCL\Unit1.pas</Transaction>
+    <Transaction>2022/12/12 14:09:40.000.669,C:\GIT\Curso-Delphi-Academia-do-Codigo\DelphiToHero\ClientVCL\src\View\Pages\DelphiToHero.View.Pages.Form.Template.dfm=C:\GIT\Curso-Delphi-Academia-do-Codigo\DelphiToHero\ClientVCL\Unit1.dfm</Transaction>
+    <Transaction>2022/12/12 14:33:50.000.300,=C:\GIT\Curso-Delphi-Academia-do-Codigo\DelphiToHero\ClientVCL\Unit1.pas</Transaction>
+    <Transaction>2022/12/12 14:34:20.000.705,C:\GIT\Curso-Delphi-Academia-do-Codigo\DelphiToHero\ClientVCL\src\View\Pages\DelphiToHero.View.Pages.Usuarios.dfm=C:\GIT\Curso-Delphi-Academia-do-Codigo\DelphiToHero\ClientVCL\Unit1.dfm</Transaction>
+    <Transaction>2022/12/12 14:34:20.000.705,C:\GIT\Curso-Delphi-Academia-do-Codigo\DelphiToHero\ClientVCL\src\View\Pages\DelphiToHero.View.Pages.Usuarios.pas=C:\GIT\Curso-Delphi-Academia-do-Codigo\DelphiToHero\ClientVCL\Unit1.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="src"/>
+    <File Path="src\View"/>
+    <File Path="src\View\Pages"/>
+    <File Path="src\View\Pages\DelphiToHero.View.Pages.Form.Template.pas"/>
+    <File Path="src\View\Pages\DelphiToHero.View.Pages.Form.Template.dfm"/>
+    <File Path="src\View\Pages\DelphiToHero.View.Pages.Principal.pas"/>
+    <File Path="src\View\Pages\DelphiToHero.View.Pages.Principal.dfm"/>
+    <File Path="src\View\Pages\DelphiToHero.View.Pages.Usuarios.pas"/>
+    <File Path="src\View\Pages\DelphiToHero.View.Pages.Usuarios.dfm"/>
+    <File Path="src\View\Routers"/>
+    <File Path="src\View\Routers\DelphiToHero.View.Routers.pas"/>
+    <File Path="src\View\Styles"/>
+    <File Path="src\View\Styles\DelphiToHero.View.Styles.Color.pas"/>
+    <File Path="src\View\DelphiToHero.View.Main.pas"/>
+    <File Path="src\View\DelphiToHero.View.Main.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

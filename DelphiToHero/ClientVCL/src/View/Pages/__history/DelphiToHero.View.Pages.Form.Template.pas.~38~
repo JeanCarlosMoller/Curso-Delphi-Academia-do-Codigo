@@ -1,0 +1,116 @@
+unit DelphiToHero.View.Pages.Form.Template;
+
+interface
+
+uses
+  Winapi.Windows,
+  Winapi.Messages,
+  System.SysUtils,
+  System.Variants,
+  System.Classes,
+  Vcl.Graphics,
+  Vcl.Controls,
+  Vcl.Forms,
+  Vcl.Dialogs,
+  Vcl.ExtCtrls,
+  Router4D.Interfaces,
+  Vcl.StdCtrls,
+  Vcl.Buttons,
+  System.ImageList,
+  Vcl.ImgList,
+  Bind4D,
+  Bind4D.Attributes,
+  Bind4D.Types;
+
+type
+  TFormTemplete = class(TForm, iRouter4DComponent)
+    Panel1: TPanel;
+    Panel2: TPanel;
+    Panel3: TPanel;
+    Panel4: TPanel;
+    Label1: TLabel;
+    SpeedButton1: TSpeedButton;
+    ImageList1: TImageList;
+    SpeedButton2: TSpeedButton;
+    SpeedButton3: TSpeedButton;
+    Panel5: TPanel;
+    Panel6: TPanel;
+    Panel7: TPanel;
+    Panel8: TPanel;
+    SpeedButton4: TSpeedButton;
+    SpeedButton5: TSpeedButton;
+    Panel9: TPanel;
+    Label2: TLabel;
+    Edit1: TEdit;
+    Panel10: TPanel;
+    Panel11: TPanel;
+    procedure FormCreate(Sender: TObject);
+  private
+    { Private declarations }
+    FEndPoint : String;
+    FTitle : String;
+    procedure ApplyStyle;
+  public
+    { Public declarations }
+    function Render : TForm;
+    procedure UnRender;
+  end;
+
+var
+  FormTemplete: TFormTemplete;
+
+implementation
+
+uses
+  DelphiToHero.View.Styles.Color;
+
+{$R *.dfm}
+
+{ TFormTemplete }
+
+procedure TFormTemplete.ApplyStyle;
+begin
+  Label1.Caption := FTitle;
+
+  Panel1.Color := COLOR_BACKGROUND;
+  Panel2.Color := COLOR_C1;
+  Panel3.Color := COLOR_BACKGROUND;
+  Panel4.Color := COLOR_C1;
+  Panel5.Color := COLOR_BACKGROUND;
+  Panel6.Color := COLOR_BACKGROUND;
+
+  Panel7.Color := COLOR_C2;
+  Panel9.Color := COLOR_BACKGROUND;
+  Panel10.Color := COLOR_BACKGROUND_TOP;
+  Panel11.Color := COLOR_BACKGROUND;
+
+  Label1.Font.Size := FONT_H5;
+  Label1.Font.Color := FONT_COLOR3;
+  Label1.Font.Name := 'Segue UI';
+
+  Label2.Font.Size := FONT_H6;
+  Label2.Font.Color := COLOR_BACKGROUND_TOP;
+
+  Edit1.Font.Size := FONT_H5;
+  Edit1.Font.Size := COLOR_BACKGROUND_TOP;
+  Edit1.Color := COLOR_BACKGROUND;
+
+end;
+
+procedure TFormTemplete.FormCreate(Sender: TObject);
+begin
+  TBindFormJson.New.BindClassToForm(Self, FEndPoint, FPK, FTitle);
+  ApplyStyle;
+end;
+
+function TFormTemplete.Render: TForm;
+begin
+  Result := self;
+end;
+
+procedure TFormTemplete.UnRender;
+begin
+  //.
+end;
+
+end.
