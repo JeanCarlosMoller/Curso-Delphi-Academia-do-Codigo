@@ -15,9 +15,9 @@ Delphi POO
  
 
  * Módulo Intermédiario:
-        - 
+        - Encapsulamento, Herança e Polimorfismo, Protected, Contrutores, Virtual Vs Dynamic, Métodos Abstratos.
  
 
 * Módulo Avançado:
-        - 
+        - Herança de Formulário, Orientação a Eventos, Utilizações Avançadas de Interfaces.
  
