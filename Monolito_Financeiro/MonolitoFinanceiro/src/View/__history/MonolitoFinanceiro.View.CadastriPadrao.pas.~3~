@@ -1,0 +1,35 @@
+unit MonolitoFinanceiro.View.CadastriPadrao;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Vcl.Grids, Vcl.DBGrids, Vcl.ExtCtrls,
+  Vcl.WinXPanels, Vcl.StdCtrls;
+
+type
+  TForm2 = class(TForm)
+    PnlPrincipal: TCardPanel;
+    cardCadastro: TCard;
+    cardPesquisa: TCard;
+    pnlPesquisa: TPanel;
+    pnlPesquisaBotoes: TPanel;
+    pnlGrid: TPanel;
+    DBGrid1: TDBGrid;
+    edtPesquisar: TEdit;
+    lblPesquisa: TLabel;
+    btnPesquisar: TButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+end.
