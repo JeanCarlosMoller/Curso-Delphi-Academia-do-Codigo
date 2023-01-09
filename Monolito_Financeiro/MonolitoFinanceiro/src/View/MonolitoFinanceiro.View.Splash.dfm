@@ -26,8 +26,6 @@ object frmSplash: TfrmSplash
     Padding.Top = 10
     ParentBackground = False
     TabOrder = 0
-    ExplicitWidth = 529
-    ExplicitHeight = 305
     object imgDll: TImage
       Left = 157
       Top = 191
@@ -65,7 +63,7 @@ object frmSplash: TfrmSplash
       Left = 0
       Top = 121
       Width = 460
-      Height = 64
+      Height = 50
       Align = alTop
       Alignment = taCenter
       Caption = 'Sistema Financeiro'
@@ -75,8 +73,7 @@ object frmSplash: TfrmSplash
       Font.Name = 'Segoe UI'
       Font.Style = []
       ParentFont = False
-      ExplicitTop = 140
-      ExplicitWidth = 454
+      ExplicitWidth = 306
     end
     object imgLogo: TImage
       Left = 0
@@ -460,7 +457,7 @@ object frmSplash: TfrmSplash
         31322B30303A30308CD770E50000000049454E44AE426082}
       Proportional = True
       Stretch = True
-      ExplicitWidth = 470
+      ExplicitTop = 4
     end
     object imgBancoDeDados: TImage
       Left = 195
@@ -617,8 +614,6 @@ object frmSplash: TfrmSplash
       Align = alBottom
       Step = 1
       TabOrder = 0
-      ExplicitTop = 288
-      ExplicitWidth = 529
     end
     object Panel1: TPanel
       Left = 0
@@ -629,8 +624,6 @@ object frmSplash: TfrmSplash
       BevelOuter = bvNone
       Padding.Bottom = 5
       TabOrder = 1
-      ExplicitTop = 264
-      ExplicitWidth = 529
       object lblStatus: TLabel
         Left = 0
         Top = -2
@@ -644,8 +637,7 @@ object frmSplash: TfrmSplash
         Font.Name = 'Segoe UI'
         Font.Style = []
         ParentFont = False
-        ExplicitTop = -3
-        ExplicitWidth = 529
+        ExplicitWidth = 4
       end
     end
   end

@@ -1,0 +1,22 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Height = 426
+  Width = 561
+  object SQLConexao: TFDConnection
+    Params.Strings = (
+      
+        'Database=C:\GIT\Curso-Delphi-Academia-do-Codigo\Monolito_Finance' +
+        'iro\MonolitoFinanceiro\db\SistemaFinanceiro.db'
+      'DriverID=SQLite')
+    LoginPrompt = False
+    Left = 32
+    Top = 40
+  end
+  object FDQuery1: TFDQuery
+    Connection = SQLConexao
+    SQL.Strings = (
+      'Select * from usuarios')
+    Left = 40
+    Top = 112
+  end
+end
