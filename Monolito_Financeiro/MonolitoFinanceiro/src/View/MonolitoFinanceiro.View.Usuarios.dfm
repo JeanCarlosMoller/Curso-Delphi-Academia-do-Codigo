@@ -4,41 +4,95 @@ inherited frmUsuarios: TfrmUsuarios
   TextHeight = 19
   inherited PnlPrincipal: TCardPanel
     inherited cardCadastro: TCard
-      ExplicitLeft = 1
-      ExplicitTop = 1
-      ExplicitWidth = 618
-      ExplicitHeight = 441
-      inherited Panel1: TPanel
-        ExplicitTop = 374
-        ExplicitWidth = 618
-        inherited btnCancelar: TButton
-          ExplicitLeft = 529
-        end
+      object Label2: TLabel [0]
+        Left = 17
+        Top = 35
+        Width = 42
+        Height = 19
+        Caption = 'Nome'
+      end
+      object Label3: TLabel [1]
+        Left = 17
+        Top = 75
+        Width = 39
+        Height = 19
+        Caption = 'Login'
+      end
+      object Label5: TLabel [2]
+        Left = 17
+        Top = 100
+        Width = 43
+        Height = 19
+        Caption = 'Status'
+      end
+      inherited pnlCadastroBotoes: TPanel
         inherited btnSalvar: TButton
-          ExplicitLeft = 441
+          OnClick = btnSalvarClick
         end
+      end
+      object edtNome: TEdit
+        Left = 88
+        Top = 32
+        Width = 361
+        Height = 27
+        TabOrder = 1
+      end
+      object edtLogin: TEdit
+        Left = 88
+        Top = 65
+        Width = 361
+        Height = 27
+        TabOrder = 2
+      end
+      object ToggleStatus: TToggleSwitch
+        Left = 88
+        Top = 98
+        Width = 130
+        Height = 21
+        StateCaptions.CaptionOn = 'Ativo'
+        StateCaptions.CaptionOff = 'Bloqueado'
+        TabOrder = 3
       end
     end
     inherited cardPesquisa: TCard
-      inherited pnlPesquisa: TPanel
-        inherited btnPesquisar: TButton
-          OnClick = btnPesquisarClick
-          ExplicitLeft = 530
-        end
-      end
       inherited pnlGrid: TPanel
         inherited DBGrid1: TDBGrid
           DataSource = DataSource1
+          Columns = <
+            item
+              Expanded = False
+              FieldName = 'nome'
+              Title.Caption = 'Nome'
+              Width = 275
+              Visible = True
+            end
+            item
+              Expanded = False
+              FieldName = 'login'
+              Title.Caption = 'Login'
+              Width = 315
+              Visible = True
+            end
+            item
+              Expanded = False
+              FieldName = 'status'
+              Title.Caption = 'Status'
+              Width = 51
+              Visible = True
+            end>
         end
       end
     end
   end
-  inherited ImageList1: TImageList
-    Top = 186
+  inherited DataSource1: TDataSource
+    DataSet = dmUsuarios.cdsUsuarios
   end
-  object DataSource1: TDataSource
-    DataSet = dmConexao.FDQuery1
-    Left = 537
-    Top = 292
+  object PopupMenu: TPopupMenu
+    Left = 608
+    Top = 211
+    object mnuRedefinirSenha: TMenuItem
+      Caption = 'Redefinir Senha'
+      OnClick = mnuRedefinirSenhaClick
+    end
   end
 end

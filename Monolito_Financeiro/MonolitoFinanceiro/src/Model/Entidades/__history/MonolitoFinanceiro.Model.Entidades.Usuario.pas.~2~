@@ -1,0 +1,38 @@
+unit MonolitoFinanceiro.Model.Entidades.Usuario;
+
+interface
+type
+  TModelEntidadeUsuario = class
+  private
+    FLoginUsuarioLogado: string;
+    FNomeUsuarioLogado: string;
+    FIDUsuarioLogado: String;
+    procedure SetIDUsuarioLogado(const Value: String);
+    procedure SetLoginUsuarioLogado(const Value: string);
+    procedure SetNomeUsuarioLogado(const Value: string);
+  public
+    property Nome : string read FNomeUsuarioLogado write SetNomeUsuarioLogado;
+    property Login : string read FLoginUsuarioLogado write SetLoginUsuarioLogado;
+    property ID : String read FIDUsuarioLogado write SetIDUsuarioLogado;
+
+  end;
+implementation
+
+{ TModelEntidadeUsuario }
+
+procedure TModelEntidadeUsuario.SetIDUsuarioLogado(const Value: String);
+begin
+  FIDUsuarioLogado := Value;
+end;
+
+procedure TModelEntidadeUsuario.SetLoginUsuarioLogado(const Value: string);
+begin
+  FLoginUsuarioLogado := Value;
+end;
+
+procedure TModelEntidadeUsuario.SetNomeUsuarioLogado(const Value: string);
+begin
+  FNomeUsuarioLogado := Value;
+end;
+
+end.

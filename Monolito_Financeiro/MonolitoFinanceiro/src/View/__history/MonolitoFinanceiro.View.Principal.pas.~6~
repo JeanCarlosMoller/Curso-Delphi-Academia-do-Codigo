@@ -4,7 +4,8 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus,
+  MonolitoFinanceiro.View.Usuarios;
 
 type
   TfrmPrincipal = class(TForm)
@@ -12,8 +13,9 @@ type
     mnuCadastro: TMenuItem;
     mnuRelatorios: TMenuItem;
     mnuAjuda: TMenuItem;
-    mnuCadastroPadrao: TMenuItem;
-    procedure mnuCadastroPadraoClick(Sender: TObject);
+    mnuUsuarios: TMenuItem;
+    procedure mnuUsuariosClick(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
   public
@@ -26,13 +28,31 @@ var
 implementation
 
 uses
-  MonolitoFinanceiro.View.CadastroPadrao;
+  MonolitoFinanceiro.View.Splash, MonolitoFinanceiro.View.Login;
 
 {$R *.dfm}
 
-procedure TfrmPrincipal.mnuCadastroPadraoClick(Sender: TObject);
+procedure TfrmPrincipal.FormCreate(Sender: TObject);
 begin
-  frmCadastroPadrao.Show();
+  frmSplash := TFrmSplash.Create(nil);
+  try
+    frmSplash.ShowModal;
+  finally
+    FreeAndNil(frmSplash);
+  end;
+  frmLogin := TFrmLogin.Create(nil);
+  try
+    frmLogin.ShowModal;
+    if frmLogin.ModalResult <> mrOk then
+      Application.Terminate;
+  finally
+    FreeAndNil(frmLogin);
+  end;
+end;
+
+procedure TfrmPrincipal.mnuUsuariosClick(Sender: TObject);
+begin
+  frmUsuarios.Show;
 end;
 
 end.

@@ -1,0 +1,21 @@
+object dmConexao: TdmConexao
+  OldCreateOrder = False
+  OnCreate = DataModuleCreate
+  Height = 426
+  Width = 561
+  object FDQuery1: TFDQuery
+    Connection = SQLConexao
+    SQL.Strings = (
+      'Select * from usuarios')
+    Left = 40
+    Top = 112
+  end
+  object SQLConexao: TFDConnection
+    Params.Strings = (
+      'DriverID=SQLite')
+    Connected = True
+    LoginPrompt = False
+    Left = 40
+    Top = 40
+  end
+end

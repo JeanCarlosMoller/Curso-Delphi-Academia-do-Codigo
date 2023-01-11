@@ -1,0 +1,14 @@
+object dmConexao: TdmConexao
+  OldCreateOrder = False
+  OnCreate = DataModuleCreate
+  Height = 426
+  Width = 561
+  object SQLConexao: TFDConnection
+    Params.Strings = (
+      'DriverID=SQLite')
+    Connected = True
+    LoginPrompt = False
+    Left = 40
+    Top = 40
+  end
+end

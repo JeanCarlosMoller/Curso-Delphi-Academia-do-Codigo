@@ -1,4 +1,0 @@
-[Banco de dados]
-DriverID = SQLite
-Database = C:\GIT\Curso-Delphi-Academia-do-Codigo\Monolito_Financeiro\MonolitoFinanceiro\db\SistemaFinanceiro.db
-LockingMode = Normal

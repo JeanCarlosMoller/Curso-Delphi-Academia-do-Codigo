@@ -1,23 +1,88 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>2023/01/02 17:12:54.000.208,=C:\Users\jeanc\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/01/02 17:16:20.000.181,C:\Users\jeanc\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\GIT\Monolito_Financeiro\src\View\MonolitoFinanceiro.View.Principal.dfm</Transaction>
-    <Transaction>2023/01/02 17:16:20.000.181,C:\Users\jeanc\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\GIT\Monolito_Financeiro\src\View\MonolitoFinanceiro.View.Principal.pas</Transaction>
-    <Transaction>2023/01/02 17:16:46.000.857,C:\Users\jeanc\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\GIT\Monolito_Financeiro\MonolitoFinanceiro.dproj</Transaction>
-    <Transaction>2023/01/05 08:27:05.000.107,=C:\GIT\Curso-Delphi-Academia-do-Codigo\Monolito_Financeiro\MonolitoFinanceiro\Unit2.pas</Transaction>
-    <Transaction>2023/01/05 08:27:51.000.631,C:\GIT\Curso-Delphi-Academia-do-Codigo\Monolito_Financeiro\MonolitoFinanceiro\Unit2.pas=C:\GIT\Curso-Delphi-Academia-do-Codigo\Monolito_Financeiro\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.CadastriPadrao.pas</Transaction>
-    <Transaction>2023/01/05 08:27:51.000.631,C:\GIT\Curso-Delphi-Academia-do-Codigo\Monolito_Financeiro\MonolitoFinanceiro\Unit2.dfm=C:\GIT\Curso-Delphi-Academia-do-Codigo\Monolito_Financeiro\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.CadastriPadrao.dfm</Transaction>
-    <Transaction>2023/01/05 09:15:15.000.775,C:\GIT\Curso-Delphi-Academia-do-Codigo\Monolito_Financeiro\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.CadastriPadrao.pas=C:\GIT\Curso-Delphi-Academia-do-Codigo\Monolito_Financeiro\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.CadastroPadrao.pas</Transaction>
-    <Transaction>2023/01/05 09:15:15.000.775,C:\GIT\Curso-Delphi-Academia-do-Codigo\Monolito_Financeiro\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.CadastriPadrao.dfm=C:\GIT\Curso-Delphi-Academia-do-Codigo\Monolito_Financeiro\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.CadastroPadrao.dfm</Transaction>
-    <Transaction>2023/01/05 10:13:55.000.935,=C:\GIT\Curso-Delphi-Academia-do-Codigo\Monolito_Financeiro\MonolitoFinanceiro\Unit2.pas</Transaction>
-    <Transaction>2023/01/05 10:14:25.000.543,C:\GIT\Curso-Delphi-Academia-do-Codigo\Monolito_Financeiro\MonolitoFinanceiro\Unit2.dfm=C:\GIT\Curso-Delphi-Academia-do-Codigo\Monolito_Financeiro\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.Splash.dfm</Transaction>
-    <Transaction>2023/01/05 10:14:25.000.543,C:\GIT\Curso-Delphi-Academia-do-Codigo\Monolito_Financeiro\MonolitoFinanceiro\Unit2.pas=C:\GIT\Curso-Delphi-Academia-do-Codigo\Monolito_Financeiro\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.Splash.pas</Transaction>
-    <Transaction>2023/01/08 16:01:50.000.417,=C:\GIT\Curso-Delphi-Academia-do-Codigo\Monolito_Financeiro\MonolitoFinanceiro\Unit1.pas</Transaction>
-    <Transaction>2023/01/08 16:02:45.000.304,C:\GIT\Curso-Delphi-Academia-do-Codigo\Monolito_Financeiro\MonolitoFinanceiro\src\Model\MonolitoFinanceiro.Model.Conexao.dfm=C:\GIT\Curso-Delphi-Academia-do-Codigo\Monolito_Financeiro\MonolitoFinanceiro\Unit1.dfm</Transaction>
-    <Transaction>2023/01/08 16:02:45.000.304,C:\GIT\Curso-Delphi-Academia-do-Codigo\Monolito_Financeiro\MonolitoFinanceiro\src\Model\MonolitoFinanceiro.Model.Conexao.pas=C:\GIT\Curso-Delphi-Academia-do-Codigo\Monolito_Financeiro\MonolitoFinanceiro\Unit1.pas</Transaction>
-    <Transaction>2023/01/08 23:30:14.000.578,=C:\GIT\Curso-Delphi-Academia-do-Codigo\Monolito_Financeiro\MonolitoFinanceiro\Unit1.pas</Transaction>
-    <Transaction>2023/01/08 23:30:55.000.970,C:\GIT\Curso-Delphi-Academia-do-Codigo\Monolito_Financeiro\MonolitoFinanceiro\Unit1.pas=C:\GIT\Curso-Delphi-Academia-do-Codigo\Monolito_Financeiro\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.Usuarios.pas</Transaction>
-    <Transaction>2023/01/08 23:30:55.000.970,C:\GIT\Curso-Delphi-Academia-do-Codigo\Monolito_Financeiro\MonolitoFinanceiro\Unit1.dfm=C:\GIT\Curso-Delphi-Academia-do-Codigo\Monolito_Financeiro\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.Usuarios.dfm</Transaction>
+    <Transaction>2021/11/11 08:15:06.000.160,=C:\Users\equip\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2021/11/15 12:32:52.000.625,=C:\Users\julio\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2021/11/16 15:09:05.000.226,=C:\Users\julio\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2021/11/19 18:45:30.000.779,=C:\Users\julio\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/01/07 10:17:57.000.432,=C:\Users\julio\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/01/07 10:35:11.000.146,=C:\Users\julio\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/04/07 15:03:51.000.659,=C:\Users\julio\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/04/07 15:07:03.000.665,C:\Users\julio\Documents\Embarcadero\Studio\Projects\Unit3.dfm=C:\Users\julio\Documents\Embarcadero\Studio\Projects\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.Principal.dfm</Transaction>
+    <Transaction>2022/04/07 15:07:03.000.665,C:\Users\julio\Documents\Embarcadero\Studio\Projects\Unit3.pas=C:\Users\julio\Documents\Embarcadero\Studio\Projects\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.Principal.pas</Transaction>
+    <Transaction>2022/04/07 15:07:17.000.829,C:\Users\julio\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\julio\Documents\Embarcadero\Studio\Projects\MonolitoFinanceiro\MonolitoFinanceiro.dproj</Transaction>
+    <Transaction>2022/04/14 15:03:35.000.476,=C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2022/04/14 15:04:19.000.146,C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.pas=C:\Treinamentos\Live\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.CadastroPadrao.pas</Transaction>
+    <Transaction>2022/04/14 15:04:19.000.146,C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.dfm=C:\Treinamentos\Live\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.CadastroPadrao.dfm</Transaction>
+    <Transaction>2022/04/20 14:26:23.000.596,=C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2022/04/20 14:26:56.000.091,C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.dfm=C:\Treinamentos\Live\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.Splash.dfm</Transaction>
+    <Transaction>2022/04/20 14:26:56.000.091,C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.pas=C:\Treinamentos\Live\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.Splash.pas</Transaction>
+    <Transaction>2022/05/12 15:05:29.000.904,=C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2022/05/12 15:06:58.000.371,C:\Treinamentos\Live\MonolitoFinanceiro\src\Model\MonolitoFinanceiro.Model.Conexao.dfm=C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.dfm</Transaction>
+    <Transaction>2022/05/12 15:06:58.000.370,C:\Treinamentos\Live\MonolitoFinanceiro\src\Model\MonolitoFinanceiro.Model.Conexao.pas=C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2022/05/12 15:08:46.000.344,=C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2022/05/12 15:09:13.000.465,C:\Treinamentos\Live\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.Usuarios.pas=C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2022/05/12 15:09:13.000.465,C:\Treinamentos\Live\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.Usuarios.dfm=C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.dfm</Transaction>
+    <Transaction>2022/05/12 15:11:42.000.626,C:\Treinamentos\Live\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.Usuarios.pas=</Transaction>
+    <Transaction>2022/05/12 15:11:49.000.886,C:\Treinamentos\Live\MonolitoFinanceiro\src\Model\MonolitoFinanceiro.Model.Conexao.pas=</Transaction>
+    <Transaction>2022/05/12 15:12:56.000.986,=C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2022/05/12 15:13:26.000.601,C:\Treinamentos\Live\MonolitoFinanceiro\src\Model\MonolitoFinanceiro.Model.Conexao.dfm=C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.dfm</Transaction>
+    <Transaction>2022/05/12 15:13:26.000.601,C:\Treinamentos\Live\MonolitoFinanceiro\src\Model\MonolitoFinanceiro.Model.Conexao.pas=C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2022/05/12 15:15:56.000.312,=C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2022/05/12 15:16:37.000.438,C:\Treinamentos\Live\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.Usuarios.pas=C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2022/05/12 15:16:37.000.438,C:\Treinamentos\Live\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.Usuarios.dfm=C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.dfm</Transaction>
+    <Transaction>2022/05/26 15:06:56.000.189,=C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2022/05/26 15:07:30.000.107,C:\Treinamentos\Live\MonolitoFinanceiro\src\Model\MonolitoFinanceiro.Model.Usuarios.dfm=C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.dfm</Transaction>
+    <Transaction>2022/05/26 15:07:30.000.107,C:\Treinamentos\Live\MonolitoFinanceiro\src\Model\MonolitoFinanceiro.Model.Usuarios.pas=C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2022/05/26 16:07:53.000.304,=C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2022/05/26 16:08:40.000.587,C:\Treinamentos\Live\MonolitoFinanceiro\src\Util\MonolitoFinanceiro.Utilitariosl.pas=C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2022/05/26 16:08:55.000.422,C:\Treinamentos\Live\MonolitoFinanceiro\src\Util\MonolitoFinanceiro.Utilitarios.pas=C:\Treinamentos\Live\MonolitoFinanceiro\src\Util\MonolitoFinanceiro.Utilitariosl.pas</Transaction>
+    <Transaction>2022/05/27 07:50:45.000.869,C:\Treinamentos\Live\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.UsuariosStr.dfm=C:\Treinamentos\Live\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.Usuarios.dfm</Transaction>
+    <Transaction>2022/05/27 07:50:45.000.869,C:\Treinamentos\Live\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.UsuariosStr.pas=C:\Treinamentos\Live\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.Usuarios.pas</Transaction>
+    <Transaction>2022/05/27 07:51:44.000.067,C:\Treinamentos\Live\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.Usuarios.dfm=C:\Treinamentos\Live\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.UsuariosStr.dfm</Transaction>
+    <Transaction>2022/05/27 07:51:44.000.067,C:\Treinamentos\Live\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.Usuarios.pas=C:\Treinamentos\Live\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.UsuariosStr.pas</Transaction>
+    <Transaction>2022/05/27 07:53:57.000.562,=C:\Treinamentos\Live\MonolitoFinanceiro\src\Util\MonolitoFinanceiro.UtilitariosStr.pas</Transaction>
+    <Transaction>2022/05/27 07:55:50.000.080,C:\Treinamentos\Live\MonolitoFinanceiro\src\Util\MonolitoFinanceiro.UtilitariosStr.pas=</Transaction>
+    <Transaction>2022/05/27 07:58:07.000.624,=C:\Treinamentos\Live\MonolitoFinanceiro\src\Util\MonolitoFinanceiro.Utilitarios.pas</Transaction>
+    <Transaction>2022/06/02 15:04:28.000.048,=C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2022/06/02 15:04:48.000.382,C:\Treinamentos\Live\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.Login.dfm=C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.dfm</Transaction>
+    <Transaction>2022/06/02 15:04:48.000.382,C:\Treinamentos\Live\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.Login.pas=C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2022/06/02 15:47:38.000.377,=C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2022/06/02 15:48:52.000.971,C:\Treinamentos\Live\MonolitoFinanceiro\src\Model\Entidades\MonolitoFinanceiro.Model.Entidades.Usuario.pas=C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2022/06/02 16:10:06.000.495,=C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2022/06/02 16:13:35.000.781,C:\Treinamentos\Live\MonolitoFinanceiro\src\Model\MonolitoFinanceiro.Model.Sistema.dfm=C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.dfm</Transaction>
+    <Transaction>2022/06/02 16:13:35.000.781,C:\Treinamentos\Live\MonolitoFinanceiro\src\Model\MonolitoFinanceiro.Model.Sistema.pas=C:\Treinamentos\Live\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2022/06/23 11:11:01.000.568,=C:\Treinamentos\Live\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.RedefinirSenha.pas</Transaction>
+    <Transaction>2023/01/11 13:40:43.237,=C:\GIT\Curso-Delphi-Academia-do-Codigo\Monolito_Financeiro\MonolitoFinanceiro\Unit1.pas</Transaction>
   </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android64="RQ8N6025CKZ"/>
+	</ActiveMobileDevice>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="src"/>
+    <File Path="src\Model"/>
+    <File Path="src\Model\Entidades"/>
+    <File Path="src\Model\Entidades\MonolitoFinanceiro.Model.Entidades.Usuario.pas"/>
+    <File Path="src\Model\MonolitoFinanceiro.Model.Conexao.pas"/>
+    <File Path="src\Model\MonolitoFinanceiro.Model.Conexao.dfm"/>
+    <File Path="src\Model\MonolitoFinanceiro.Model.Usuarios.pas"/>
+    <File Path="src\Model\MonolitoFinanceiro.Model.Usuarios.dfm"/>
+    <File Path="src\Model\MonolitoFinanceiro.Model.Sistema.pas"/>
+    <File Path="src\Model\MonolitoFinanceiro.Model.Sistema.dfm"/>
+    <File Path="src\Util"/>
+    <File Path="src\Util\MonolitoFinanceiro.Utilitarios.pas"/>
+    <File Path="src\View"/>
+    <File Path="src\View\MonolitoFinanceiro.View.CadastroPadrao.pas"/>
+    <File Path="src\View\MonolitoFinanceiro.View.CadastroPadrao.dfm"/>
+    <File Path="src\View\MonolitoFinanceiro.View.Principal.pas"/>
+    <File Path="src\View\MonolitoFinanceiro.View.Principal.dfm"/>
+    <File Path="src\View\MonolitoFinanceiro.View.Splash.pas"/>
+    <File Path="src\View\MonolitoFinanceiro.View.Splash.dfm"/>
+    <File Path="src\View\MonolitoFinanceiro.View.Usuarios.pas"/>
+    <File Path="src\View\MonolitoFinanceiro.View.Usuarios.dfm"/>
+    <File Path="src\View\MonolitoFinanceiro.View.Login.pas"/>
+    <File Path="src\View\MonolitoFinanceiro.View.Login.dfm"/>
+    <File Path="src\View\MonolitoFinanceiro.View.RedefinirSenha.pas"/>
+    <File Path="src\View\MonolitoFinanceiro.View.RedefinirSenha.dfm"/>
+  </ProjectSortOrder>
 </BorlandProject>

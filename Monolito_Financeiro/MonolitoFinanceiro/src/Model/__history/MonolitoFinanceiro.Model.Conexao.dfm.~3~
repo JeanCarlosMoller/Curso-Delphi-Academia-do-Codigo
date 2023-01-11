@@ -1,0 +1,23 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  OnCreate = DataModuleCreate
+  Height = 353
+  Width = 540
+  object SQLConexao: TFDConnection
+    Params.Strings = (
+      
+        'Database=C:\Treinamentos\Live\MonolitoFinanceiro\db\SistemaFinan' +
+        'ceiro.db'
+      'DriverID=SQLite')
+    LoginPrompt = False
+    Left = 40
+    Top = 32
+  end
+  object FDQuery1: TFDQuery
+    Connection = SQLConexao
+    SQL.Strings = (
+      'Select * from usuarios')
+    Left = 40
+    Top = 120
+  end
+end

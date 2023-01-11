@@ -2,9 +2,9 @@ object frmSplash: TfrmSplash
   Left = 0
   Top = 0
   BorderStyle = bsNone
-  Caption = 'Splash'
-  ClientHeight = 282
-  ClientWidth = 460
+  Caption = 'frmSplash'
+  ClientHeight = 324
+  ClientWidth = 532
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -18,68 +18,19 @@ object frmSplash: TfrmSplash
   object pnlPrincipal: TPanel
     Left = 0
     Top = 0
-    Width = 460
-    Height = 282
+    Width = 532
+    Height = 324
     Align = alClient
     BevelOuter = bvNone
     Color = clHotLight
     Padding.Top = 10
     ParentBackground = False
     TabOrder = 0
-    object imgDll: TImage
-      Left = 157
-      Top = 191
-      Width = 32
-      Height = 32
-      Center = True
-      Picture.Data = {
-        0954506E67496D61676589504E470D0A1A0A0000000D49484452000000200000
-        0020100400000089E36E3C0000000467414D410000B18F0BFC61050000000262
-        4B47440000AA8D23320000000970485973000000600000006000F06B42CF0000
-        000774494D4507E604140E1604375968F3000001CF4944415478DAED964F2804
-        7114C7DFD86CC2898B0B59695D9C90A2F6E0228B9C1C1C5DD641FE958BC28D70
-        51BB917273905CE48452E2E2B025E4E44FB99070E142AD32BEAFDFDBDAD6CC58
-        ED6F86D8579F99667EF3E67D76FBCDFBFD0CB209930A719C0143945DBC824A32
-        E8C172D4F85CD890C207A04D830047106FBDFC5AC0241F8E4B2002DABD1530C9
-        8FE32AE8963B1E0A985484E306684D19F248C0A43C9CA64143CAED04E807B3A0
-        C76D812A8BDB3C175AC002C8775BC0D450E0EF09DC83338D02BD10B8CD54E00A
-        D4811252734177DC4026E124C08D681DECBB509C630E02634E0231B003B6C039
-        A996CC5100422020D7715001CA2C8AEC8146506C311683C070A60223A41A540D
-        780127608554B7EC0061306051849F8F926A645909241F8CCA798D5467E449DA
-        49F69D32283961DD026F48F623E39A54A7F45C80170F03191732E6B9C03B927D
-        C8E04F75F027047876778127397B22C0459B496DAD36C19414E5E5FA19D4A6E4
-        96830911A896EB64D483BEEF0A1C92FAEC384AE51785E49A65B6D372B92F8C83
-        65709436C6CB7D2413814579F92EB913F3101875123896BFBC89DC590B4E21F0
-        E824C0C11D2FAEB1E8A4FDB6FC97EE0772023981FF257047D6DB2A5DC13BA980
-        6D1FF800BE2AB82172AB66F00000002574455874646174653A63726561746500
-        323032322D30342D32305431343A32323A30342B30303A3030EAF8F458000000
-        2574455874646174653A6D6F6469667900323032322D30342D32305431343A32
-        323A30342B30303A30309BA54CE40000000049454E44AE426082}
-      Proportional = True
-      Stretch = True
-      Visible = False
-    end
-    object lblNomeAplicacao: TLabel
-      Left = 0
-      Top = 121
-      Width = 460
-      Height = 50
-      Align = alTop
-      Alignment = taCenter
-      Caption = 'Sistema Financeiro'
-      Font.Charset = ANSI_CHARSET
-      Font.Color = clWhite
-      Font.Height = -37
-      Font.Name = 'Segoe UI'
-      Font.Style = []
-      ParentFont = False
-      ExplicitWidth = 306
-    end
     object imgLogo: TImage
       Left = 0
       Top = 10
-      Width = 460
-      Height = 111
+      Width = 532
+      Height = 129
       Align = alTop
       Center = True
       Picture.Data = {
@@ -459,9 +410,58 @@ object frmSplash: TfrmSplash
       Stretch = True
       ExplicitTop = 4
     end
+    object lblNomeAplicacao: TLabel
+      Left = 0
+      Top = 139
+      Width = 532
+      Height = 50
+      Align = alTop
+      Alignment = taCenter
+      Caption = 'Sistema Financeiro'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWhite
+      Font.Height = -37
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+      ExplicitWidth = 306
+    end
+    object imgDll: TImage
+      Left = 170
+      Top = 195
+      Width = 32
+      Height = 32
+      Center = True
+      Picture.Data = {
+        0954506E67496D61676589504E470D0A1A0A0000000D49484452000000200000
+        0020100400000089E36E3C0000000467414D410000B18F0BFC61050000000262
+        4B47440000AA8D23320000000970485973000000600000006000F06B42CF0000
+        000774494D4507E604140E1604375968F3000001CF4944415478DAED964F2804
+        7114C7DFD86CC2898B0B59695D9C90A2F6E0228B9C1C1C5DD641FE958BC28D70
+        51BB917273905CE48452E2E2B025E4E44FB99070E142AD32BEAFDFDBDAD6CC58
+        ED6F86D8579F99667EF3E67D76FBCDFBFD0CB209930A719C0143945DBC824A32
+        E8C172D4F85CD890C207A04D830047106FBDFC5AC0241F8E4B2002DABD1530C9
+        8FE32AE8963B1E0A985484E306684D19F248C0A43C9CA64143CAED04E807B3A0
+        C76D812A8BDB3C175AC002C8775BC0D450E0EF09DC83338D02BD10B8CD54E00A
+        D4811252734177DC4026E124C08D681DECBB509C630E02634E0231B003B6C039
+        A996CC5100422020D7715001CA2C8AEC8146506C311683C070A60223A41A540D
+        780127608554B7EC0061306051849F8F926A645909241F8CCA798D5467E449DA
+        49F69D32283961DD026F48F623E39A54A7F45C80170F03191732E6B9C03B927D
+        C8E04F75F027047876778127397B22C0459B496DAD36C19414E5E5FA19D4A6E4
+        96830911A896EB64D483BEEF0A1C92FAEC384AE51785E49A65B6D372B92F8C83
+        65709436C6CB7D2413814579F92EB913F3101875123896BFBC89DC590B4E21F0
+        E824C0C11D2FAEB1E8A4FDB6FC97EE0772023981FF257047D6DB2A5DC13BA980
+        6D1FF800BE2AB82172AB66F00000002574455874646174653A63726561746500
+        323032322D30342D32305431343A32323A30342B30303A3030EAF8F458000000
+        2574455874646174653A6D6F6469667900323032322D30342D32305431343A32
+        323A30342B30303A30309BA54CE40000000049454E44AE426082}
+      Proportional = True
+      Stretch = True
+      Visible = False
+    end
     object imgBancoDeDados: TImage
-      Left = 195
-      Top = 191
+      Left = 218
+      Top = 195
       Width = 32
       Height = 32
       Center = True
@@ -503,8 +503,8 @@ object frmSplash: TfrmSplash
       Visible = False
     end
     object imgConfiguracoes: TImage
-      Left = 233
-      Top = 191
+      Left = 266
+      Top = 195
       Width = 32
       Height = 32
       Center = True
@@ -555,8 +555,8 @@ object frmSplash: TfrmSplash
       Visible = False
     end
     object imgIniciando: TImage
-      Left = 271
-      Top = 191
+      Left = 314
+      Top = 195
       Width = 32
       Height = 32
       Center = True
@@ -608,8 +608,8 @@ object frmSplash: TfrmSplash
     end
     object ProgressBar1: TProgressBar
       Left = 0
-      Top = 265
-      Width = 460
+      Top = 307
+      Width = 532
       Height = 17
       Align = alBottom
       Step = 1
@@ -617,26 +617,27 @@ object frmSplash: TfrmSplash
     end
     object Panel1: TPanel
       Left = 0
-      Top = 241
-      Width = 460
-      Height = 24
+      Top = 279
+      Width = 532
+      Height = 28
       Align = alBottom
       BevelOuter = bvNone
       Padding.Bottom = 5
       TabOrder = 1
       object lblStatus: TLabel
         Left = 0
-        Top = -2
-        Width = 460
+        Top = 2
+        Width = 532
         Height = 21
         Align = alBottom
         Alignment = taCenter
-        Font.Charset = ANSI_CHARSET
+        Font.Charset = DEFAULT_CHARSET
         Font.Color = clWhite
         Font.Height = -16
         Font.Name = 'Segoe UI'
         Font.Style = []
         ParentFont = False
+        ExplicitTop = 23
         ExplicitWidth = 4
       end
     end
@@ -644,7 +645,7 @@ object frmSplash: TfrmSplash
   object Timer1: TTimer
     Interval = 50
     OnTimer = Timer1Timer
-    Left = 400
-    Top = 168
+    Left = 448
+    Top = 200
   end
 end

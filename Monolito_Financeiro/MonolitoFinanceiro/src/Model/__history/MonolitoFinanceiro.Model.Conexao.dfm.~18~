@@ -1,0 +1,26 @@
+object dmConexao: TdmConexao
+  OldCreateOrder = False
+  OnCreate = DataModuleCreate
+  Height = 426
+  Width = 561
+  object FDQuery1: TFDQuery
+    Active = True
+    Connection = SQLConexao
+    SQL.Strings = (
+      'Select * from usuarios')
+    Left = 40
+    Top = 112
+  end
+  object SQLConexao: TFDConnection
+    Params.Strings = (
+      
+        'Database=C:\GIT\Curso-Delphi-Academia-do-Codigo\Monolito_Finance' +
+        'iro\MonolitoFinanceiro\db\SistemaFinanceiro.db'
+      'User_Name=SistemaFinanceiro'
+      'DriverID=SQLite')
+    Connected = True
+    LoginPrompt = False
+    Left = 72
+    Top = 56
+  end
+end

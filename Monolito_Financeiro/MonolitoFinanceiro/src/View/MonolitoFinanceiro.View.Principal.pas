@@ -4,7 +4,8 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus,
+  MonolitoFinanceiro.View.Usuarios, Vcl.ComCtrls, Vcl.ExtCtrls;
 
 type
   TfrmPrincipal = class(TForm)
@@ -13,8 +14,11 @@ type
     mnuRelatorios: TMenuItem;
     mnuAjuda: TMenuItem;
     mnuUsuarios: TMenuItem;
+    StatusBar1: TStatusBar;
+    Timer1: TTimer;
     procedure mnuUsuariosClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
+    procedure Timer1Timer(Sender: TObject);
   private
     { Private declarations }
   public
@@ -27,25 +31,39 @@ var
 implementation
 
 uses
-  MonolitoFinanceiro.View.Usuarios,
-  MonolitoFinanceiro.View.Splash;
+  MonolitoFinanceiro.View.Splash,
+  MonolitoFinanceiro.View.Login,
+  MonolitoFinanceiro.Model.Usuarios;
 
 {$R *.dfm}
 
 procedure TfrmPrincipal.FormCreate(Sender: TObject);
 begin
-  frmSplash := TfrmSplash.Create(nil);
+  frmSplash := TFrmSplash.Create(nil);
   try
     frmSplash.ShowModal;
   finally
-  FreeAndNil(frmSplash);
-
+    FreeAndNil(frmSplash);
   end;
+  frmLogin := TFrmLogin.Create(nil);
+  try
+    frmLogin.ShowModal;
+    if frmLogin.ModalResult <> mrOk then
+      Application.Terminate;
+  finally
+    FreeAndNil(frmLogin);
+  end;
+  StatusBar1.Panels.Items[1].Text := 'Usuário: ' + dmUsuarios.GetUsuarioLogado.Nome;
 end;
 
 procedure TfrmPrincipal.mnuUsuariosClick(Sender: TObject);
 begin
   frmUsuarios.Show;
+end;
+
+procedure TfrmPrincipal.Timer1Timer(Sender: TObject);
+begin
+  StatusBar1.Panels.Items[0].Text := DateTimeToStr(Now);
 end;
 
 end.
